@@ -1,0 +1,53 @@
+/* cart */
+.flexcart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.cartItem {
+    margin: auto;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    width: 90%;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 5px;
+}
+
+.cartHeader {
+    font-family: 'sans-serif';
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+/* input area */
+.freq, .cost {
+    font-weight: 700;
+    padding: 2px;
+    margin: 10px;
+}
+
+.freq {
+    float: right;
+    height: 35px;
+    line-height: 35px;
+}
+
+.cost {
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+
+.done {
+    margin-top: 40px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
